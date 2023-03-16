@@ -12,9 +12,9 @@ One of the main deliverable of the project is a file that performs inference on 
 outputs the results in a expected format, this functionality is impletmented in the inference.py file and
 this can be executed using the following command:
 
-python3 i n f e r e n c e. py−m<path t o t h e s a v e d model>
-−n<name o f t h e model : m o b i l e n e t / c o n v n e x t>
-−d<path t o t h e t e s t d a t a s e t>−i <path t o t h e i n d e x t o c l a s s mapping f i l e>
+python3 i n f e r e n c e. py−m<path to the saved model>
+−n<name of the model : mobilenet or convnext>
+−d<path to the test dataset>−i <path to the index to class mapping file> 
 Alternatively if all the required files are placed in the same directory as the inference.py file and then
 the default arguments are set in place to run inference on the mobilenet model and can be executed
 using the following command:
@@ -29,7 +29,7 @@ folders with their respective class name, fine details of the implementation are
 comments and documentation of the code inside the file, this file can be executed using the following
 command:
 
-python3 v i d e o t o f r a m e s. py−p<path t o t h e f o l d e r c o n t a i n i n g t h e v i d e o s>
+python3 v i d e o t o f r a m e s. py−p<path to the folder containing the videos>
 Alternatively if the folder containing the video is in the same directory as this file is then the
 following command can be used to execute this file:
 
@@ -43,7 +43,7 @@ folder with same file structure as the train folder, fine details of the impleme
 detail in the comments and documentation of the code inside the file, this file can be executed using
 the following command:
 
-python3 v a l s p l i t. py−p<path t o t h e t r a i n f o l d e r>
+python3 v a l s p l i t. py−p<path to the train folder>
 Alternatively if the train folder is in the same directory as this file is then the following command
 can be used to execute this file:
 
@@ -58,7 +58,7 @@ retain the class names all the frames from all the classes are placed in a singl
 details of the implementation are explained in detail in the comments and documentation of the code
 inside the file, this file can be executed using the following command:
 
-python3 t e s t f o l d e r. py−p<path t o t h e v a l i d a t i o n f o l d e r>
+python3 t e s t f o l d e r. py−p<path to the validation folder>
 Alternatively if the validation folder is in the same directory as this file is then the following
 command can be used to execute this file:
 
@@ -118,6 +118,7 @@ over a hundred layers.
 ```
 Figure 1: A Residual Block
 ```
+![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/renet.png)
 Resnets are made of something called residual blocks, which are a set of layers that are connected to
 each other, and the input of the first layer is added to the output of the last layer in the block. This is
 called a residual connection. This identity mapping does not have any parameters and is just there to

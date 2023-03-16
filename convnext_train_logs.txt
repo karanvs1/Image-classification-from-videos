@@ -1,0 +1,53 @@
+Epoch 1/15: Train Acc 18.7996%, Train Loss 2.2354, Learning Rate 0.0009890738003669                                                     
+Validation Accuracy: 24.4938% Validation Loss: 2.0855
+Saving model with validation accuracy 24.4938%
+                                                                                                                          
+Epoch 2/15: Train Acc 34.3750%, Train Loss 1.9358, Learning Rate 0.0009567727288213                                                          
+Validation Accuracy: 38.9136% Validation Loss: 1.8503
+Saving model with validation accuracy 38.9136%
+                                                                                                                          
+Epoch 3/15: Train Acc 57.0437%, Train Loss 1.5983, Learning Rate 0.0009045084971875                                                                
+Validation Accuracy: 52.9383% Validation Loss: 1.6473
+Saving model with validation accuracy 52.9383%
+                                                                                                                          
+Epoch 4/15: Train Acc 79.8611%, Train Loss 1.2687, Learning Rate 0.0008345653031794                                                                  
+Validation Accuracy: 73.2840% Validation Loss: 1.3053
+Saving model with validation accuracy 73.2840%
+                                                                                                                          
+Epoch 5/15: Train Acc 92.4727%, Train Loss 1.0779, Learning Rate 0.0007500000000000                                                           
+Validation Accuracy: 91.4568% Validation Loss: 1.0156
+Saving model with validation accuracy 91.4568%
+                                                                                                                          
+Epoch 6/15: Train Acc 98.3383%, Train Loss 0.9491, Learning Rate 0.0006545084971875                                                       
+Validation Accuracy: 94.1235% Validation Loss: 0.9218
+Saving model with validation accuracy 94.1235%
+                                                                                                                          
+Epoch 7/15: Train Acc 99.6032%, Train Loss 0.9016, Learning Rate 0.0005522642316338
+Validation Accuracy: 94.1235% Validation Loss: 0.9043
+                                                                                                                          
+Epoch 8/15: Train Acc 99.9380%, Train Loss 0.8766, Learning Rate 0.0004477357683662                                                       
+Validation Accuracy: 94.6173% Validation Loss: 0.8761
+Saving model with validation accuracy 94.6173%
+                                                                                                                           
+Epoch 9/15: Train Acc 99.9876%, Train Loss 0.8658, Learning Rate 0.0003454915028125
+Validation Accuracy: 94.7160% Validation Loss: 0.8659
+Saving model with validation accuracy 94.7160%
+                                                                                                                           
+Epoch 10/15: Train Acc 100.0000%, Train Loss 0.8593, Learning Rate 0.0002500000000000
+Validation Accuracy: 94.7160% Validation Loss: 0.8602
+                                                                                                                           
+Epoch 11/15: Train Acc 100.0000%, Train Loss 0.8545, Learning Rate 0.0001654346968206
+Validation Accuracy: 94.7160% Validation Loss: 0.8579
+                                                                                                                           
+Epoch 12/15: Train Acc 100.0000%, Train Loss 0.8522, Learning Rate 0.0000954915028125                                                                 
+Validation Accuracy: 94.7654% Validation Loss: 0.8536
+Saving model with validation accuracy 94.7654%
+                                                                                                                           
+Epoch 13/15: Train Acc 100.0000%, Train Loss 0.8506, Learning Rate 0.0000432272711787
+Validation Accuracy: 94.7160% Validation Loss: 0.8528
+                                                                                                                           
+Epoch 14/15: Train Acc 100.0000%, Train Loss 0.8498, Learning Rate 0.0000109261996331
+Validation Accuracy: 94.7160% Validation Loss: 0.8525
+                                                                                                                           
+Epoch 15/15: Train Acc 100.0000%, Train Loss 0.8493, Learning Rate 0.0000000000000000
+Validation Accuracy: 94.7160% Validation Loss: 0.8522

@@ -143,6 +143,7 @@ the details of the ConvNeXt Architecture can be found in the following paper“A
 ```
 Figure 2: Loss vs Epoch for ConvNext
 ```
+![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/convnext_loss.png
 ```
 Figure 3: Accuracy vs Epoch for ConvNext
 ```

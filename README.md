@@ -118,7 +118,7 @@ over a hundred layers.
 ```
 Figure 1: A Residual Block
 ```
-![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/renet.png)
+![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/assets/renet.png)
 Resnets are made of something called residual blocks, which are a set of layers that are connected to
 each other, and the input of the first layer is added to the output of the last layer in the block. This is
 called a residual connection. This identity mapping does not have any parameters and is just there to
@@ -144,11 +144,11 @@ the details of the ConvNeXt Architecture can be found in the following paper“A
 ```
 Figure 2: Loss vs Epoch for ConvNext
 ```
-![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/convnext_loss.png)
+![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/assets/convnext_loss.png)
 ```
 Figure 3: Accuracy vs Epoch for ConvNext
 ```
-![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/convnext_acc.png)
+![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/assets/convnext_acc.png)
 4.1.3 MobileNet V3 Small
 
 This is a much smaller model but efficient model, and it was also able to achieve similar performance
@@ -161,11 +161,11 @@ cross-entropy loss. The detals of the architecture can be found in the paper cit
 ```
 Figure 4: Loss vs Epoch for MobileNet
 ```
-![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/mobilenet_loss.png)
+![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/assets/mobilenet_loss.png)
 ```
 Figure 5: Accuracy vs Epoch for MobileNet
 ```
-![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/mobilenet_acc.png)
+![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/assets/mobilenet_acc.png)
 ### 4.2 Loss Function:cross-entropy loss
 
 The natural choice for the loss function is cross-entropy loss because this is a multi class classification
@@ -188,7 +188,7 @@ in 3 sparate directores:
 ```
 Figure 6: Data distribution by class
 ```
-![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/class_balance.png)
+![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/assets/class_balance.png)
 This distribution shows that the data is fairly class balanced and so we don’t have to worry much
 about class imbalance
 
@@ -217,7 +217,7 @@ about class imbalance
 ```
 Figure 7: Predicted distribution by class
 ```
-![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/output_class_balance.png)
+![image](https://github.com/karanvs1/Image-classification-from-videos/blob/main/assets/output_class_balance.png)
 ## References
 
 [1] Kaiming He et al.Deep Residual Learning for Image Recognition. 2015.doi:10.48550/ARXIV.

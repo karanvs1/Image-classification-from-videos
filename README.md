@@ -12,15 +12,15 @@ One of the main deliverable of the project is a file that performs inference on 
 outputs the results in a expected format, this functionality is impletmented in the inference.py file and
 this can be executed using the following command:
 
-python3 i n f e r e n c e. py−m<path to the saved model>
+python3 inference.py −m <path to the saved model>
 −n<name of the model : mobilenet or convnext>
-−d<path to the test dataset>−i <path to the index to class mapping file> 
+−d<path to the test dataset> −i <path to the index to class mapping file> 
 Alternatively if all the required files are placed in the same directory as the inference.py file and then
 the default arguments are set in place to run inference on the mobilenet model and can be executed
 using the following command:
 
 ```
-python3 i n f e r e n c e. py
+python3 inference.py
 ```
 ## 1.2 videotoframes.py
 
@@ -29,12 +29,12 @@ folders with their respective class name, fine details of the implementation are
 comments and documentation of the code inside the file, this file can be executed using the following
 command:
 
-python3 v i d e o t o f r a m e s. py−p<path to the folder containing the videos>
+python3 video_to_frames.py −p <path to the folder containing the videos>
 Alternatively if the folder containing the video is in the same directory as this file is then the
 following command can be used to execute this file:
 
 ```
-python3 v i d e o t o f r a m e s. py
+python3 video_to_frames.py
 ```
 ## 1.3 valsplit.py
 
@@ -43,12 +43,12 @@ folder with same file structure as the train folder, fine details of the impleme
 detail in the comments and documentation of the code inside the file, this file can be executed using
 the following command:
 
-python3 v a l s p l i t. py−p<path to the train folder>
+python3 val_split.py −p <path to the train folder>
 Alternatively if the train folder is in the same directory as this file is then the following command
 can be used to execute this file:
 
 ```
-python3 v a l s p l i t. py
+python3 val_split.py
 ```
 
 ### 1.4 testfolder.py
@@ -58,12 +58,12 @@ retain the class names all the frames from all the classes are placed in a singl
 details of the implementation are explained in detail in the comments and documentation of the code
 inside the file, this file can be executed using the following command:
 
-python3 t e s t f o l d e r. py−p<path to the validation folder>
+python3 test_folder.py −p <path to the validation folder>
 Alternatively if the validation folder is in the same directory as this file is then the following
 command can be used to execute this file:
 
 ```
-python3 t e s t f o l d e r. py
+python3 test_folder.py
 ```
 ### 1.5 convnext.ipynb and mobilenet.ipynb
 
